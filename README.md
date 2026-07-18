@@ -59,6 +59,11 @@ Projeto estruturado em camadas:
 3. Suba os containers:
    docker-compose up --build
 
+> ⚠️ **Importante:** execute sempre com `docker-compose up --build`. 
+> Não suba a imagem manualmente pela interface do Docker Desktop, 
+> pois isso pode causar conflito de porta (8080) ou deixar a API 
+> sem conexão com o banco PostgreSQL.
+
 A API estará disponível em http://localhost:8080
 
 ## 📋 Exemplos de uso
