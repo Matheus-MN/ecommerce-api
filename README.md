@@ -66,6 +66,15 @@ Projeto estruturado em camadas:
 
 A API estará disponível em http://localhost:8080
 
+## 🔐 Configuração
+
+As credenciais do banco vêm de variáveis de ambiente. Sem configurar nada, valores padrão de **desenvolvimento local** são usados. Para definir os seus, copie `.env.example` para `.env` (ignorado pelo Git) e ajuste:
+
+```bash
+cp .env.example .env
+docker-compose up --build
+```
+
 ## 📋 Exemplos de uso
 
 ### Criar produto
